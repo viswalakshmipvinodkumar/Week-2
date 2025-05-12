@@ -1,0 +1,22 @@
+Sample PDF Document
+
+This is a sample PDF document created for testing the PDF text extraction function.
+
+Vector databases are specialized database systems designed to store and efficiently query high-dimensional vector embeddings.
+These embeddings are numerical representations of data that capture semantic meaning.
+
+Retrieval Augmented Generation (RAG) combines retrieval systems with generative AI to enhance the quality and accuracy of generated content.
+
+Agentic RAG takes this further by incorporating autonomous decision-making capabilities into the retrieval and generation process.
+This allows the system to independently determine what information to retrieve and how to use it effectively.
+
+Additional Information
+
+This is the second page of our sample PDF document.
+
+ChromaDB is an open-source embedding database that makes it easy to build AI applications with embeddings.
+
+PyMuPDF (fitz) is a Python binding for MuPDF, which is a lightweight PDF renderer.
+It's useful for extracting text, images, and other content from PDF documents.
+
+This sample PDF was created using ReportLab, a library for generating PDFs with Python.

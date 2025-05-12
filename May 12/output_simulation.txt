@@ -1,0 +1,39 @@
+=================================================
+Week 2 Assignment - PDF Text Extraction and ChromaDB
+=================================================
+
+Step 1: Creating a sample PDF...
+Sample PDF created at sample.pdf
+
+Step 2: Extracting text from the PDF...
+Extracted 1245 characters of text
+Sample of extracted text:
+Sample PDF Document
+
+This is a sample PDF document created for testing the PDF text extraction function.
+
+Vector databases are specialized database systems designed to store and efficiently query high-dimensional vector embeddings.
+These embeddings are numerical representations of data that capture semantic meaning.
+
+Retrieval Augmented Generation (RAG) combines retrieval systems with generative AI to enhance the quality and accuracy of generated content...
+Full extracted text saved to 'extracted_text.txt'
+
+Step 3: Initializing ChromaDB and storing the document...
+ChromaDB initialized with collection: pdf_documents
+Added 8 documents to the collection
+
+Step 4: Querying the ChromaDB collection...
+Query: What is Agentic RAG?
+
+Result 1:
+Document: Agentic RAG takes this further by incorporating autonomous decision-making capabilities into the retrieval and generation process.
+This allows the system to independently determine what information to retrieve and how to use it effectively.
+Metadata: {'source': 'sample.pdf', 'chunk_id': 3}
+Distance: 0.1234567
+
+Result 2:
+Document: Retrieval Augmented Generation (RAG) combines retrieval systems with generative AI to enhance the quality and accuracy of generated content.
+Metadata: {'source': 'sample.pdf', 'chunk_id': 2}
+Distance: 0.2345678
+
+Assignment completed successfully!
